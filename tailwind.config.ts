@@ -8,12 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      maxWidth: {},
-      maxHeight: {},
-      width: {},
-      height: {},
-      colors: {},
-      backgroundColor: {},
+      minHeight: {
+        calc: 'calc(100vh - 65px)',
+      },
+      colors: {
+        lightGray: '#eeeaee',
+        white: '#ffffff',
+        green: '#10b1c3',
+        black: '#3f3939',
+        pink: '#ff3aaf',
+        violet: '#c177ce',
+      },
       fontSize: {
         sm: ['14px', '21px'],
       },

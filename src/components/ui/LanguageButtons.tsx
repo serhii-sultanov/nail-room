@@ -12,8 +12,8 @@ export const LangButtonts: FC = () => {
     <div>
       <button
         className={clsx(
-          i18n.language === 'ua' ? 'text-green-500' : 'text-black',
-          'px-1 font-medium'
+          i18n.language === 'ua' ? 'text-white' : 'text-black opacity-50',
+          'px-1 font-semibold uppercase text-sm'
         )}
         onClick={() => changeLanguage('ua')}
       >
@@ -22,19 +22,18 @@ export const LangButtonts: FC = () => {
       <span className='text-sand'>|</span>
       <button
         className={clsx(
-          i18n.language === 'en' ? 'text-green-500' : 'text-black',
-          'px-1 font-medium'
+          i18n.language === 'en' ? 'text-white' : 'text-black opacity-50',
+          'px-1 font-semibold uppercase text-sm'
         )}
         onClick={() => changeLanguage('en')}
       >
         {t('en')}
       </button>
       <span className='text-sand'>|</span>
-
       <button
         className={clsx(
-          i18n.language === 'ru' ? 'text-green-500' : 'text-black',
-          'px-1 font-medium'
+          i18n.language === 'ru' ? 'text-white' : 'text-black opacity-50',
+          'px-1 font-semibold uppercase text-sm'
         )}
         onClick={() => changeLanguage('ru')}
       >

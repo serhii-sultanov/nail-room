@@ -5,10 +5,6 @@ import { MainLayout } from '@/components/layouts/MainLayout';
 import { I18nextProvider } from 'react-i18next';
 import i18n from '@/utils/i18next';
 import '@/styles/globals.css';
-import '@fontsource/roboto/300.css';
-import '@fontsource/roboto/400.css';
-import '@fontsource/roboto/500.css';
-import '@fontsource/roboto/700.css';
 
 const App: FC<AppProps> = ({ Component, pageProps }) => {
   return (

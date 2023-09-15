@@ -1,11 +1,11 @@
 import { FC } from 'react';
-import { LangButtonts } from '@/components/ui/LanguageButtons';
+import { MainSection } from '@/components/home/MainSection';
 
 const Home: FC = () => {
   return (
-    <div>
-      <LangButtonts />
-    </div>
+    <>
+      <MainSection />
+    </>
   );
 };
 
