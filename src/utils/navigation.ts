@@ -3,10 +3,13 @@ export const ROUTE: Record<string, string> = {
   SAFETY: '/safety',
   CONTACTS: '/contacts',
   PRICE: '/prices',
-  FORHIM: '/forhim',
-  FORHER: '/forher',
+  MANICURE: '/manicure',
+  PEDICURE: '/pedicure',
   DESIGN: '/design',
   SPA: '/spa',
+  FORMAN: '/forman',
+  COMPLEX: '/complex',
+  BUILD: '/build-up',
 };
 
 type Links = {
@@ -20,10 +23,13 @@ type DropDownLinks = {
 };
 
 export const dropdownLinks: DropDownLinks[] = [
-  { href: ROUTE.FORHIM, label: 'Для нього' },
-  { href: ROUTE.FORHER, label: 'Для неї' },
+  { href: ROUTE.MANICURE, label: 'Манікюр' },
+  { href: ROUTE.PEDICURE, label: 'Педікюр' },
+  { href: ROUTE.BUILD, label: 'Нарощування' },
+  { href: ROUTE.COMPLEX, label: 'Комплекс' },
   { href: ROUTE.DESIGN, label: 'Дизайн' },
   { href: ROUTE.SPA, label: 'СПА' },
+  { href: ROUTE.FORMAN, label: 'Чоловічі процедури' },
 ];
 
 export const links: Links[] = [

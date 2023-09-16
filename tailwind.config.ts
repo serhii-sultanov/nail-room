@@ -11,16 +11,23 @@ const config: Config = {
       minHeight: {
         calc: 'calc(100vh - 65px)',
       },
+      maxWidth: {
+        mainBtn: '300px',
+      },
       colors: {
         lightGray: '#eeeaee',
         white: '#ffffff',
         green: '#10b1c3',
         black: '#3f3939',
-        pink: '#ff3aaf',
+        pink: '#ffbcd2',
         violet: '#c177ce',
+        milk: '#fbf7f4',
       },
       fontSize: {
         sm: ['14px', '21px'],
+      },
+      backgroundColor: {
+        mainBtnBg: '#f0f1ff59',
       },
     },
   },

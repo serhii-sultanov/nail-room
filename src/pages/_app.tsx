@@ -1,10 +1,10 @@
-import { FC } from 'react';
+import { MainLayout } from '@/components/layouts/MainLayout';
+import '@/styles/globals.css';
+import i18n from '@/utils/i18next';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import { MainLayout } from '@/components/layouts/MainLayout';
+import { FC } from 'react';
 import { I18nextProvider } from 'react-i18next';
-import i18n from '@/utils/i18next';
-import '@/styles/globals.css';
 
 const App: FC<AppProps> = ({ Component, pageProps }) => {
   return (
