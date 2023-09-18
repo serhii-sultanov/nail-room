@@ -74,7 +74,7 @@ export const VerticalText: FC = () => {
       <span className="transform origin-bottom-left absolute top-0 left-0 w-5 h-[150px] rotate-[114deg]">
         {" "}
       </span>
-      <span className="transform origin-bottom-left absolute top-0 left-0 w-5 h-[150px] rotate-[120deg]">
+      <span className="transform origin-bottom-left absolute top-0 left-0 w-5 h-[150px] rotate-[118deg]">
         в
       </span>
       <span className="transform origin-bottom-left absolute top-0 left-0 w-5 h-[150px] rotate-[126deg]">
@@ -98,7 +98,7 @@ export const VerticalText: FC = () => {
       <span className="transform origin-bottom-left absolute top-0 left-0 w-5 h-[150px] rotate-[162deg]">
         в
       </span>
-      <span className="transform origin-bottom-left absolute top-0 left-0 w-5 h-[150px] rotate-[168deg]">
+      <span className="transform origin-bottom-left absolute top-0 left-0 w-5 h-[150px] rotate-[167deg]">
         і
       </span>
     </div>
