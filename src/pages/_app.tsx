@@ -5,6 +5,10 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { FC } from 'react';
 import { I18nextProvider } from 'react-i18next';
+import 'swiper/css';
+import 'swiper/css/grid';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 const App: FC<AppProps> = ({ Component, pageProps }) => {
   return (

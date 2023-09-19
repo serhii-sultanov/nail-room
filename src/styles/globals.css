@@ -14,8 +14,46 @@ body {
 }
 
 .service__link {
-  background-image: url("https://images.pexels.com/photos/6659423/pexels-photo-6659423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  position: relative;
+  background-image: url('/images/photo5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.service__link::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.1;
+}
+/* ********************************* */
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-wrapper {
+  flex-direction: inherit !important;
+  flex-wrap: no-wrap !important;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  width: auto important;
+  height: 500px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
 }
